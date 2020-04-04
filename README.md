@@ -25,13 +25,13 @@ The 8-bit microcontroller which consists of:
 A3967 (Stepper Motor Driver): -
 The A3967SLB is a complete micro stepping motor driver with built-in translator. It is designed to operate bipolar stepper motors in full, half, quarter and eighth-step modes, with output drive capability of 30 V and ±750 mA. The A3967 includes a fixed off-time current regulator that has the ability to operate in slow fast or mixed current-decay modes. This current-decay control scheme results in reduced audible motor noise, increased step accuracy and reduced power dissipation.
 
-12 V DC Solenoid Valve: - A solenoid valve is an electro- mechanically operated valve. The valve is controlled by an electric current through a solenoid: in the case of a two-port valve the flow is switched on or off. Fig 2.4 shows a typical solenoid valve.
+12 V DC Solenoid Valve: - A solenoid valve is an electro- mechanically operated valve. The valve is controlled by an electric current through a solenoid: in the case of a two-port valve the flow is switched on or off.
 
 Medical Syringe: - A syringe is a simple pump consisting of a plunger that fits tightly in a tube. The plunger can be pulled and pushed along inside a cylindrical tube (called a barrel), allowing the syringe to take in and expel a liquid through an orifice at the open end of the tube. The open end of the syringe consists of a nozzle and a tubing arrangement (Fitted Additionally) to help direct the flow into and out of the barrel.
 
 4-Wire Stepper Motor: - A stepper motor or step motor or stepping motor is a brushless DC electric motor that divides a full rotation into a number of equal steps. The motor's position can then be commanded to move and hold at one of these steps without any feedback sensor (an open-loop controller), as long as the motor is carefully sized to the application in respect to torque and speed.
 
-12 V DC Battery: - A DC power supply is one that supplies a voltage of fixed polarity (either positive or negative) to its load. Depending on its design, a DC power supply may be powered from a DC source or from an AC source such as the power mains. Fig 2.7.0 shows a 12V DC Battery.
+12 V DC Battery: - A DC power supply is one that supplies a voltage of fixed polarity (either positive or negative) to its load. Depending on its design, a DC power supply may be powered from a DC source or from an AC source such as the power mains. 
 
 #Procedure for sampling
 Stage 1: - Flushing or cleaning the volume chamber.
@@ -40,7 +40,7 @@ Stage 1: - Flushing or cleaning the volume chamber.
 3. This distilled water cleans the volume chamber and is transferred to the drain chamber (Via. Analysis Chamber). If the cleaning process is thorough and perfect; the conductivity sensed by the probe will be ‘1023’. If the value is below ‘1023’, that means the cleaning process is not thorough.
 
 Stage 2: - Collection of known amount of water sample.
-1. Depending upon the amount of sample required, the stepper motor rotates the number of steps required to take the sample water in the volume chamber through the piston action (LEAD- SCREW Arrangement).The configuration of stepper motor with the volume chamber is done such that for 4000 steps an approximate volume is 3cc is present in the chamber, which is 1333 steps for 1cc approximately of the sample taken.
+1. Depending upon the amount of sample required, the stepper motor rotates the number of steps required to take the sample water in the volume chamber through the piston action (LEAD - SCREW Arrangement).The configuration of stepper motor with the volume chamber is done such that for 4000 steps an approximate volume is 3cc is present in the chamber, which is 1333 steps for 1cc approximately of the sample taken.
 2. The sample sea water comes in through the Sea water chamber (Sea water valve is opened); the remaining 3 valves are closed.
 3. Thus, now the volume chamber has the programmed amount of water sample.
 
@@ -52,4 +52,4 @@ The controlling unit is communicated through the RFM12B module. It is a low cost
 
 #Transistor as a switch
 Darlington’s can be used to yield very high amplification of a control current (since a Darlington's total gain is
-equal to the product of the gains of the two BJT transistors it is made from). These are generally used for high-current loads.
+equal to the product of the gains of the two BJT transistors it is made from) These are generally used for high-current loads.
